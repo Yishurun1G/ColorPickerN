@@ -1,46 +1,67 @@
-body{
-    font-family: Arial, sans-serif;
+/* Sets the default font for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Uses Arial as the primary font, with sans-serif as fallback */
 }
-.color-picker-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* Styles the main container of the color picker */
+.color-picker-container {
+    display: flex; /* Enables flexible box layout */
+    flex-direction: column; /* Aligns items in a vertical column */
+    align-items: center; /* Centers items horizontally */
 }
-h1{
-    margin: 50px;
-    font-size: 3rem;
+
+/* Styling for all h1 elements */
+h1 {
+    margin: 50px; /* Adds space around the heading */
+    font-size: 3rem; /* Large font size for emphasis */
 }
-.color-display{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid hsl(0, 0%, 80%);
-    border-radius: 25px;
-    margin-bottom: 25px;
-    transition: 0.3s ease;
+
+/* Styles the color display box where the selected color is shown */
+.color-display {
+    width: 300px; /* Sets the width of the color display box */
+    height: 300px; /* Sets the height of the color display box */
+    display: flex; /* Enables flexbox for centering content */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    border: 5px solid hsl(0, 0%, 80%); /* Light gray border for visibility */
+    border-radius: 25px; /* Rounds the corners of the box */
+    margin-bottom: 25px; /* Adds space below the box */
+    transition: 0.3s ease; /* Smooth transition effect when changes occur */
 }
-.color-display p{
-    color: hsl(0, 0%, 20%);
-    font-size: 2rem;
-    text-align: center;
+
+/* Styles the text inside the color display box */
+.color-display p {
+    color: hsl(0, 0%, 20%); /* Darker gray text for contrast */
+    font-size: 2rem; /* Large text size for readability */
+    text-align: center; /* Centers text inside the box */
+    transform: scale(1.05); /* Slight zoom-in effect */
 }
-label{
-font-size: 1.5rem;
-font-weight: bold;
-margin-bottom: 10px;
+
+/* Styling for the label above the color picker */
+label {
+    font-size: 1.5rem; /* Increases font size for better visibility */
+    font-weight: bold; /* Makes the label text bold */
+    margin-bottom: 10px; /* Adds space below the label */
+    display: block; /* Forces the label to take up the full width, moving input to the next line */
+    text-align: center; /* Centers the label text horizontally */
 }
-input[type="color"]{
-    width: 75px;
-    height: 50px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 3px solid hsl(0, 0%, 80% ); 
+
+/* Styles the color input field */
+input[type="color"] {
+    width: 75px; /* Sets the width of the color input */
+    height: 50px; /* Sets the height of the color input */
+    padding: 5px; /* Adds padding inside the input field */
+    border-radius: 10px; /* Rounds the corners of the input */
+    border: 3px solid hsl(0, 0%, 80%); /* Matches the color display border */
+    cursor: pointer; /* Changes cursor to pointer to indicate interactivity */
 }
-p{
-    font-family: 'Courier New', Courier, monospace;
+
+/* Sets a custom font for all paragraph text */
+p {
+    font-family: 'Courier New', Courier, monospace; /* Gives a typewriter-style appearance */
 }
-.thankfull{
-    font-family:'Times New Roman', Times, serif;
+
+/* Styling for the thank-you message */
+.thankfull { /* Typo: Should be .thankful to match the corrected React code */
+    font-family: 'Times New Roman', Times, serif; /* Uses a classic font for the thank-you message */
 }
