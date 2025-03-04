@@ -27,7 +27,7 @@ function ColorPicker() {
 
             {/* Author and date information */}
             <p>
-                This is made by Yishurun Getachew, guided by YouTube videos. <br />
+                This is made by Yishurun Getachew. <br />
                 03/04/2025!
             </p>
 
