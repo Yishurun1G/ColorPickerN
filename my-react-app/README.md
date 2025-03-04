@@ -8,7 +8,6 @@ A simple React application that allows users to select a color using an input co
 - ✅ Minimal and user-friendly interface
 - ✅ Responsive design for different screen sizes
 
-## 📂 Project Structure
 
 
 # React + Vite
